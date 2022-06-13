@@ -51,6 +51,7 @@ importers:
       axios: ^0.27.2
       dayjs: ^1.11.3
       element-plus: ^2.2.5
+      kill-port: ^2.0.0
       typescript: ^4.5.4
       vite: ^2.9.9
       vue: ^3.2.25
@@ -62,6 +63,7 @@ importers:
       vue: 3.2.37
     devDependencies:
       '@vitejs/plugin-vue': 2.3.3_vite@2.9.12+vue@3.2.37
+      kill-port: 2.0.0
       typescript: 4.7.3
       vite: 2.9.12
       vue-tsc: 0.34.17_typescript@4.7.3

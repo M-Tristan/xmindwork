@@ -176,7 +176,7 @@ export default defineComponent({
         if (item.type == 0) {
           res.pay += parseFloat(item.amount);
         } else {
-          res.income = parseFloat(item.amount);
+          res.income += parseFloat(item.amount);
         }
       });
       return res;
@@ -198,7 +198,7 @@ export default defineComponent({
         if (item.type == 0) {
           totalMap[typename].pay += parseFloat(item.amount);
         } else {
-          totalMap[typename].income = parseFloat(item.amount);
+          totalMap[typename].income += parseFloat(item.amount);
         }
       });
       Object.keys(totalMap).forEach((key: string) => {

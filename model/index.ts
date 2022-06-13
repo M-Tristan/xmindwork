@@ -1,7 +1,9 @@
 import fs from 'fs'
 const parseCsv = (data: string) => {
     let csvlist = data.split('\n')
-    let typelist = csvlist[0].split(',')
+    let typelist = csvlist[0].split(',').map((item: string) => {
+        return item.trim()
+    })
     let datalist = []
     for (let index = 1; index < csvlist.length; index++) {
         let csvitems = csvlist[index].split(",")
