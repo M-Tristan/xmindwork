@@ -1,0 +1,23 @@
+{
+  "name": "xmindwork",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": [
+    "web",
+    "model",
+    "server"
+  ],
+  "scripts": {
+    "initmodel": "pnpm run -C model start",
+    "runweb": "pnpm run -C web dev",
+    "runserver": "pnpm run -C server start",
+    "dev": "npx concurrently \"pnpm run runserver\" \"pnpm run runweb\"",
+    "start": "npm run initmodel && pnpm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "7.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
