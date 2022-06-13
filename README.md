@@ -6,6 +6,8 @@
 **如果你已经安装了 Homebrew 软件包管理器，则可以使用如下命令赖安装 pnpm：**
 `brew install pnpm`
 ### 安装依赖
+确保yarn已经安装，yarn安装命令
+`npm install -g yarn`
 项目根目录下，控制台执行以下命令
 `pnpm install`
 ### 项目运行
