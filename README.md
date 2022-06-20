@@ -1,5 +1,5 @@
 ## 简介
-项目环境使用[pnpm](https://www.pnpm.cn/installation)包管理工具，node版本>12
+项目环境使用[pnpm](https://www.pnpm.cn/installation)包管理工具，node版本>14
 #### pnpm安装
 **使用 npm**
 `npm install -g pnpm`
@@ -7,12 +7,18 @@
 `brew install pnpm`
 ### 安装依赖
 确保yarn已经安装，yarn安装命令
+
 `npm install -g yarn`
+
 项目根目录下，控制台执行以下命令
+
 `pnpm install`
+
 ### 项目运行
 依赖安装完毕后项目根目录下，控制台执行以下命令
+
 `pnpm start`
+
 启动后浏览器访问：http://localhost:3000/
 
 #### 项目基本目录结构
